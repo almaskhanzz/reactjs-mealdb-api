@@ -1,0 +1,31 @@
+.meals-selection{
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    padding: 10px;
+}
+.meals-selection img{
+    width: 300px;
+    border-radius: 10px ;
+}
+.btn-order{
+    width: 100%;
+    margin-left: -10px;
+    background: #FFE0B3;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-order p{
+    margin-right: 5px;
+}
+.btn-order:hover{
+    background-color: #f8c463;
+    cursor: pointer;
+}
